@@ -2,10 +2,12 @@
 /**
  *main void entry point
  *
- * puts displays to the screen
+ * puts: displays to the screen
  *
- * Return statement always true
+ * Return: 0 statement always true
  */
+
+
 int main(void)
 
 {
