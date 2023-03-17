@@ -1,11 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main entry point
+ * main - entry point
  *
- * puts: displays to the screen
- *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 
