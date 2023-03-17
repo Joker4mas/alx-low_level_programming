@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $Cmain > $Cmain.s	
+gcc -c -S $CFILE > C.s	
