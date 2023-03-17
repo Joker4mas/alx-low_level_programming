@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- *main void entry point
+ * main entry point
  *
  * puts: displays to the screen
  *
- * Return: 0 statement always true
+ * Return: Always 0 (success)
  */
 
 
