@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main: Main entry 
+ * main- Main entry 
  *
  * printf: display to the screen
  *
