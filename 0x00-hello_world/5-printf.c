@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Main entry 
+ * mai: Main entry point
  *
  * printf: display to the screen
  *
