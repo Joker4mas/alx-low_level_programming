@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Main Entry point
+ *
+ * printf: it displays to the screen
  *
  * Return : Always 0 (Success)
  */
