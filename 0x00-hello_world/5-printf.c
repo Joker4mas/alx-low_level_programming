@@ -1,16 +1,15 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - Main Entry point
+ * main - Main entry 
  *
- * printf: it displays to the screen
+ * printf: display to the screen
  *
- * Return:Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
-int main(voidi)
+int main(void)
 
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return(0);
+	return (0);
 }
