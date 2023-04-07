@@ -9,5 +9,5 @@
 int main()
 {
 	printf("_putcha\n");
-	return 0;
+	return (0);
 }
