@@ -3,7 +3,7 @@
 /**
  * main - Main Entry point
  *
- * Return - Always return 0 (success)
+ * return - Always return 0 (success)
  */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 
 	for (n = 0; n < getlen; n++)
 	{
-	_putchar(str[n]);
+		_putchar(str[n]);
         }
 
 	_putchar('\n');
