@@ -13,10 +13,10 @@ int main(void)
 	int getlen = strlen(str);
 
 	for (n = 0; n < getlen; n++)
-        {
+	{
 		_putchar(str[n]);
         }
 
-       	_putchar('\n') ;
+	_putchar('\n');
         return (0);
 }
