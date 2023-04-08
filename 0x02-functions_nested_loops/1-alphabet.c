@@ -4,6 +4,7 @@
  *
  * Return: Always 0 (success)
  *
+ * print_alphabet - function that prints alphabets in lowercase form
  */
 
 void print_alphabet(void)
