@@ -14,9 +14,9 @@ int main(void)
 
 	for (n = 0; n < getlen; n++)
 	{
-		_putchar(str[n]);
+	_putchar(str[n]);
         }
 
 	_putchar('\n');
-        return (0);
+	return (0);
 }
