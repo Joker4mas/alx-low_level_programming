@@ -2,6 +2,8 @@
 
 /**
  * print_last_digit - function that prints ut the last digit
+ * 
+ * @n: is the parameter used.
  *
  * Return: Always 0 (success).
  */
@@ -13,6 +15,6 @@ int  print_last_digit(int n)
 	{
 		last = 0 - last;
 	}
-	_putchar(last + '0);
+	_putchar(last + '0');
 	return (last);
 }
