@@ -3,6 +3,8 @@
 /**
  * _abs - function that computes absolute value
  *
+ * x: is the parameter used 
+ *
  * Return: Always 0 (success)
  */
 
