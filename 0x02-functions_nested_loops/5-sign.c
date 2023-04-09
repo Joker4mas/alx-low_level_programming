@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_sign - checks the code fo signed values
- * 
+ * print_sign - checks the code fo signed values.
+ *
  * @n: paratmeter to be used.
  *
  * Return: Always 0 (success).
