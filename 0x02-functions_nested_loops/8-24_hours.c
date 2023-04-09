@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code entry
+ * jack_bauer - function that prints time
  *
  * Return: Always 0 (success).
  *
@@ -23,5 +23,5 @@ void jack_bauer(void)
 			_putchar ('\n');
 		}
 	}	
-	return (0);
+
 }
