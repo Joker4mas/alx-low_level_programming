@@ -8,7 +8,6 @@
 
 int print_sign(int x)
 {
-	int x;
 
 	x = print_sign(98);
 	_putchar(',');
