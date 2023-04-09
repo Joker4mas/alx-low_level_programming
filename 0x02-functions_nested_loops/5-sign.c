@@ -6,31 +6,31 @@
  * Return: Always 0 (success).
  */
 
-int main(void)
+int print_sign(int x)
 {
-	int r;
+	int x;
 
-	r = print_sign(98);
+	x = print_sign(98);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');
+	_putchar(x + '0');
 	_putchar('\n');
-	r = print_sign(0);
+	x = print_sign(0);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');
+	_putchar(x + '0');
 	_putchar('\n');
 	
-	r =print_sign(0xff);
+	x =print_sign(0xff);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');
+	_putchar(x + '0');
 	_putchar('\n');
 
 	r = print_sign(-1);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r +'0');
+	_putchar(x +'0');
 	_putchar('\n');
 	return (0);
 	
