@@ -1,36 +1,30 @@
 #include "main.h"
 
 /**
- * main - checks the code.
+ * print_sign - checks the code fo signed values
+ * 
+ *
  *
  * Return: Always 0 (success).
  */
 
-int print_sign(int x)
+int print_sign(int n)
 {
 
-	x = print_sign(98);
-	_putchar(',');
-	_putchar(' ');
-	_putchar(x + '0');
-	_putchar('\n');
-	x = print_sign(0);
-	_putchar(',');
-	_putchar(' ');
-	_putchar(x + '0');
-	_putchar('\n');
-	
-	x =print_sign(0xff);
-	_putchar(',');
-	_putchar(' ');
-	_putchar(x + '0');
-	_putchar('\n');
-
-	r = print_sign(-1);
-	_putchar(',');
-	_putchar(' ');
-	_putchar(x +'0');
-	_putchar('\n');
-	return (0);
+	if (n > 0)
+	{
+		_putchar(43 + 0);
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar(48 + 0);
+		return (0);
+	}
+	else
+	{
+		_putchar(45 + 0);
+		return(-1);
+	}
 	
 }
