@@ -3,7 +3,7 @@
 /**
  * print_sign - checks the code fo signed values
  * 
- *
+ * @n: paratmeter to be used.
  *
  * Return: Always 0 (success).
  */
@@ -24,7 +24,7 @@ int print_sign(int n)
 	else
 	{
 		_putchar(45 + 0);
-		return(-1);
+		return (-1);
 	}
-	
+
 }
