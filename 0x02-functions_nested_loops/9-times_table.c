@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * time_table - function that prints time table
  *
  * Return: Always 0 (success).
  */
@@ -23,7 +23,7 @@ void times_table(void)
 			if (product <= 9)
 				_putchar(' ');
 			else
-				putchar((product / 10) + 48);
+				_putchar((product / 10) + 48);
 			_putchar((product % 10) + 48);
 		}
 		_putchar('\n');
