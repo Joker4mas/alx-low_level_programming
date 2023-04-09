@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - function that adds two numbers
- * 
+ * add - function that adds two numbers.
+ *
  * @x: is a parameter used.
  *
  * @y: is a parameter used.
