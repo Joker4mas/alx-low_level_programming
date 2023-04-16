@@ -5,6 +5,8 @@
  *
  * Starting with 0.
  *
+ * @n: parameter used.
+ *
  * Return: Always 0 (success).
  */
 
