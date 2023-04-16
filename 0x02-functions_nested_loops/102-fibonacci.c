@@ -11,19 +11,19 @@
 int main(void)
 {
 	int x = 0;
-	float y = 1, z = 2;
+	long y = 1, z = 2;
 
 	while (x < 50)
 	{
 		if(x == 0)
 		printf("%d", y);
 		else if (x == 1)
-		printf(", %d", z);
+		printf(" %d", z);
 		else
 		{
 			z += y;
 			y = z - y;
-			printf(", %d", z);
+			printf("%d", z);
 		}
 		x++;
 	}
