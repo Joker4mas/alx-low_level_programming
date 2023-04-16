@@ -21,7 +21,7 @@ int main(void)
 		}
 		x++;
 	}
-	printf("%d", y);
+	printf("%d\n", y);
 	return (0);
 }
 
