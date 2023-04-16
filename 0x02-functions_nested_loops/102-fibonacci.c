@@ -16,7 +16,7 @@ int main(void)
 	while (x < 50)
 	{
 		if(x == 0)
-		printf("%d\n", y);
+		printf("%d", y);
 		else if (x == 1)
 		printf(", %d", z);
 		else
