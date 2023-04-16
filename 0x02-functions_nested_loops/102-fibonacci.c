@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * main - Main entry point
@@ -21,8 +21,8 @@ int main(void)
 		printf(", %d", z);
 		else
 		{
-			z == y;
-			y = z -y;
+			z += y;
+			y = z - y;
 			printf(", %d", z);
 		}
 		x++;
