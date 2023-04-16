@@ -11,7 +11,7 @@
 int main(void)
 {
 	int x = 0;
-	long y = 1, z = 2;
+	float y = 1, z = 2;
 
 	while (x < 50)
 	{
