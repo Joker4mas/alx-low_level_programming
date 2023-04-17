@@ -10,26 +10,24 @@
 
 int main(void)
 {
-	int x = 0;
-	unsigned long int y = 1, z = 2;
+    int x;
+    unsigned long y = 1, z = 2, total;
 
-	while (x < 50)
-	{
-		if(x == 0)
-		printf("%d", y);
-		else if (x == 1)
-		printf("%d, ", z);
-		else
-		{
-			z += y;
-			y = z - y;
-			printf("%d, ", z);
-		}
-		x++;
-	}
-	printf("\n");
-	return (0);
+    printf("%lu, %lu", y, z);
+
+    for (x = 2; x < 50; x++)
+    {
+        total = y + z;
+        printf(",");
+        printf(" ");
+        printf("%lu", total);
+        y = z;
+        z = total;
+    }
+    printf("\n");
+    return (0);
 }
+
 
 
 
