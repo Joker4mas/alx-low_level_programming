@@ -10,22 +10,22 @@
 
 int main(void)
 {
-    int x;
-    unsigned long y = 1, z = 2, total;
+	 int x;
+	 unsigned long y = 1, z = 2, total;
 
-    printf("%lu, %lu", y, z);
+	printf("%lu, %lu", y, z);
 
-    for (x = 2; x < 50; x++)
-    {
+	for (x = 2; x < 50; x++)
+	{
         total = y + z;
         printf(",");
         printf(" ");
         printf("%lu", total);
         y = z;
         z = total;
-    }
-    printf("\n");
-    return (0);
+	}
+    	printf("\n");
+    	return (0);
 }
 
 
