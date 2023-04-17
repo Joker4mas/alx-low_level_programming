@@ -10,14 +10,14 @@
 
 int main(void)
 {
-	float tatol = 2;
+	float total = 2;
 	unsigned long x = 1, y  = 2, sum;
 	
 	while(1)
 	{
-		sum x + y;
+		sum = x + y;
 		if (sum > 4000000)
-			brealk;
+			break;
 
 		if ((sum % 2) == 0)
 			total += sum;
