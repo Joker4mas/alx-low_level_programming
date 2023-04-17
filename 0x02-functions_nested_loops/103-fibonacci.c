@@ -10,16 +10,20 @@
 
 int main(void)
 {
-	int x = 0;
-	long int y = 1, z  = 2, sum;
-
-	while(y + z < 4000000)
+	float tatol = 2;
+	unsigned long x = 1, y  = 2, sum;
+	
+	while(1)
 	{
-		z += y;
-		if (z % 2 == 0)
-		sum += z;
-		y = z - y;
+		sum x + y;
+		if (sum > 4000000)
+			brealk;
+
+		if ((sum % 2) == 0)
+			total += sum;
+		x = z;
+		y = sum;
 	}
-	printf("%d", sum);
+	printf("%.0f\n", total);
 	return (0);	
 }
