@@ -17,15 +17,15 @@ int main(void)
 
 	for (x = 2; x < 50; x++)
 	{
-        total = y + z;
-        printf(",");
-        printf(" ");
-        printf("%lu", total);
-        y = z;
-        z = total;
+		total = y + z;
+        	printf(",");
+        	printf(" ");
+        	printf("%lu", total);
+        	y = z;
+        	z = total;
 	}
-    	printf("\n");
-    	return (0);
+	printf("\n");
+	return (0);
 }
 
 
