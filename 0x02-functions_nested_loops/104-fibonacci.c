@@ -13,10 +13,10 @@ int main(void)
 
 	printf("%lu, %lu", y, z);
 
-	for (x = 0; x <= 98; x++)
+	for (x = 3; x <= 97; x++)
 	{
 		total = y + z;
-		if (x != 98)
+		if (x != 97)
 		{
 			printf(",");
 			printf(" ");
