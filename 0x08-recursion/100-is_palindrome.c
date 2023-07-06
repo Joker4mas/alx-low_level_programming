@@ -15,7 +15,7 @@ int is_palindrome(char *s)
 }
 
 /**
-* validate_palind - function the output 1 if a string 
+* validate_palind - function the output 1 if a string
 * is palindrome and 0 if it is not a palindrome.
 * @s: string
 * @x1: start

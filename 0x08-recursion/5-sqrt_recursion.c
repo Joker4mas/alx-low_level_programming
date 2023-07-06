@@ -26,7 +26,7 @@ int _sqrt_recursion(int n)
  * Return: always 0 (success)
  */
 
-int actual_sqrt(int n, int k)
+int actual_sqrt_recursion(int n, int k)
 {
 	if (k * k > n)
 		return (-1);
