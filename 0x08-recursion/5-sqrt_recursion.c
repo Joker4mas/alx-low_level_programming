@@ -6,7 +6,6 @@ int actual_sqrt(int n, int k);
  * _sqrt_recursion - function returns thr square root
  * of a numbers.
  * @n:integer
- * @k: integer
  * Return: always 0 (success)
  */
 
@@ -22,6 +21,8 @@ int _sqrt_recursion(int n)
 /**
  * actual_sqrt - function returns the square
  * root of a numbers.
+ * @k: integer
+ * @n: integer
  * Return: always 0 (success)
  */
 
