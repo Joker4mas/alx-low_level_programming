@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * factorial - function returns the factors of any 
+ * factorial - function returns the factors of any
  * given number
+ * @n: integer used
  * Return: always 0 (success)
  */
 
