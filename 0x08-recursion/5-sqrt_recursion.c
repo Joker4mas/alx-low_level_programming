@@ -13,12 +13,13 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (actual_sqrt(n,0));
+	return (actual_sqrt(n, 0));
 }
 
 
 **
- * _sqrt_recursion - function returns thr square root  * of a numbers.
+ * _sqrt_recursion - function returns the square
+ * root of a numbers.
  * Return: always 0 (success)
  */
 
