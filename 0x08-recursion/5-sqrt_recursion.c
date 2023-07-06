@@ -17,7 +17,7 @@ int _sqrt_recursion(int n)
 }
 
 
-**
+/**
  * _sqrt_recursion - function returns the square
  * root of a numbers.
  * Return: always 0 (success)
