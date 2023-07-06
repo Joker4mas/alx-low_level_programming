@@ -5,6 +5,7 @@
 /**
  * _strlen_recursion - function that gives the lenght
  * of a string
+ * @s: string to be used
  * Return: Always 0 (success)
  */
 
