@@ -3,8 +3,10 @@
 int actual_sqrt(int n, int k);
 
 /**
- * _sqrt_recursion - function returns thr square root 
+ * _sqrt_recursion - function returns thr square root
  * of a numbers.
+ * @n:integer
+ * @k: integer
  * Return: always 0 (success)
  */
 
@@ -18,12 +20,12 @@ int _sqrt_recursion(int n)
 
 
 /**
- * _sqrt_recursion - function returns the square
+ * actual_sqrt - function returns the square
  * root of a numbers.
  * Return: always 0 (success)
  */
 
- int actual_sqrt(int n, int k)
+int actual_sqrt(int n, int k)
 {
 	if (k * k > n)
 		return (-1);
