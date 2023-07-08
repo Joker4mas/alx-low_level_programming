@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point 
- * 
- * function to test positive or negative integes
+ * main - Entry point  function to test positive or negative integes
  *
  * Return: Always 0 (success).
  */
 
 int main(void)
 {
-	int n;
+	int i;
 
-	n = n;
-	positive_or_negative(n);
+	i = i;
+	positive_or_negative(i);
 
 	return (0);
 }
