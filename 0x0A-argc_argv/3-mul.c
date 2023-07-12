@@ -10,7 +10,7 @@
 
 int main(int argc, char  *argv[])
 {
-	int x, sum;
+	int x, mult;
 
 	if (argc < 3)
 	{
@@ -19,7 +19,7 @@ int main(int argc, char  *argv[])
 	else
 		for (x = 1; x < argc; x++)
 		{
-			sum += atoi(argv[]);
+			mult *= atoi(argv[x]);
 		}
 	return (0);
 }

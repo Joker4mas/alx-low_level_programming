@@ -7,7 +7,7 @@
  * Reeturn : Awlays 0 (success)
  */
 
-int main( int argc, char **agrv)
+int main(int argc, char **argv)
 {
 	int x;
 
