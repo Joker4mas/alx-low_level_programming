@@ -8,37 +8,36 @@
  */
 
 
-int calculate_min_coins(int cents) 
-{
-	if (cents < 0) 
-	{
-	return 0;
-	}
-
-	int coins[] = {25, 10, 5, 2, 1};
-	int num_coins = sizeof(coins) / sizeof(coins[0]);
-	int count = 0;
-	for (int i = 0; i < num_coins; i++) 
-	{
-        count += cents / coins[i];
-        cents %= coins[i];
-	}
-
-	return count;
-}
-
 int main(int argc, char *argv[]) 
 {
-	if (argc != 2) 
-	{
-        printf("Error\n");
-        return 1;
-	}
+	int x, cents, bal = 0;
+	int coins[] = {25, 10, 5, 2, 1};
 	
-	int cents = atoi(argv[1]);
-    	int min_coins = calculate_min_coins(cents);
+	if (arg != 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
 
-	printf("%d\n", min_coins);
+	cents = atoi(argv[1]);
 
-	return 0;
+	if (cents < 0)
+	{
+		printf("0\n");
+
+		return (0);
+	}
+
+	for (i = 0; i < 5; i++)
+	{
+		while (cents >= coins[x])
+		{
+			bal++;
+			cents -= coins[x];
+		}
+	}
+	printf("d%\n", bal);
+	return (0);
 }
+
+
