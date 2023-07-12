@@ -6,8 +6,7 @@
  * @argv : Argument vector
  * Return : Always 0 (success)
  */
-#include <stdio.h>
-#include <stdlib.h>
+
 
 int calculate_min_coins(int cents) 
 {
