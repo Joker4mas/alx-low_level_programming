@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int x, cents, bal = 0;
 	int coins[] = {25, 10, 5, 2, 1};
 	
-	if (arg != 2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (i = 0; i < 5; i++)
+	for (x = 0; x < 5; x++)
 	{
 		while (cents >= coins[x])
 		{
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 			cents -= coins[x];
 		}
 	}
-	printf("d%\n", bal);
+	printf("%d\n", bal);
 	return (0);
 }
 
