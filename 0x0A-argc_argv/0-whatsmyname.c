@@ -1,4 +1,5 @@
 #include  "main.h"
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -7,13 +8,9 @@
  * Reeturn : Awlays 0 (success)
  */
 
-int main(int argc, char **argv)
+int main(int argc_attribute_((unsed)), char **argv)
 {
-	int x;
-
-	for (x = 0; x < argc; x++)
-	{
-		printf("%s\n", argv[x]);
-	}
+	printf("%s\n", argv);
+	
 	return (0);
 }
